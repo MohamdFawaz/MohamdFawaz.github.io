@@ -144,6 +144,14 @@ padding-bottom: 30px;
 position: relative;
 
 }
+.modal-content iframe{
+	margin-top: 20px;
+	/*margin-bottom: 15px;*/
+}
+.modal-content {
+	height: 355px;
+
+}
 
 /* Responsive Styling */
 
@@ -170,6 +178,24 @@ position: relative;
 		}
 	}
 
+.modal-content button.close {
+	position: absolute;
+	top:5px;
+	right: 15px;
+	background-color: white;
+	font-size: 20px;
+	width: 30px;
+	opacity: 1;
+	border-radius: 24px;
+	-webkit-border-radius :24px;
+}
+ .modal-dialog{
+ 	position: absolute;
+ 	right: 666px;
+ 	margin-top: 240px;
+
+
+ }
 #back-to-top{
 	position: absolute;
 	bottom: 20px;
