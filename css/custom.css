@@ -191,14 +191,19 @@ position: relative;
 }
  .modal-dialog{
  	position: absolute;
- 	right: 666px;
- 	margin-top: 240px;
+  /* right: 666px; */
+  /* margin-top: 30px; */
+	margin-left: -300px;
+	left: 50%;
+	top: 50%;
+	margin-top: -172px;
 
 
  }
  @media (max-width: 767px) { 
 .modal-dialog{
 	margin-right: -663px;
+	
 }
  }
 }
